@@ -86,8 +86,8 @@ resource "azurerm_virtual_machine" "main" {
   }
   os_profile {
     computer_name  = "MyMachine-BADA"
-    admin_username = "badarou"
-    admin_password = "Farichou1993"
+    admin_username = "Admin"
+    admin_password = "password123"
   }
   os_profile_linux_config {
     disable_password_authentication = false
